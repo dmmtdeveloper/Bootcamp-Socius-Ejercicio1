@@ -82,6 +82,7 @@ body {
         outline: none;
         font-size: 1em;
         font-family: inherit;
+        border: none;
       }
       .form__input--textarea {
         height: 70px;
@@ -96,9 +97,8 @@ body {
         color: white;
         text-transform: capitalize;
         font-size: 1.2rem;
-        border-radius: 3rem;
+        border-radius: 4rem;
         transition: all 0.3s;
-
         
     }
     .cta:hover{
