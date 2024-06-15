@@ -88,23 +88,21 @@ body {
         height: 70px;
       }
     }
-    
-    .cta{
-        margin-top: 0.5rem;
-        padding: 0.8rem 2rem;
-        border: none;
-        background-color: #0d2843;
-        color: white;
-        text-transform: capitalize;
-        font-size: 1.2rem;
-        border-radius: 4rem;
-        transition: all 0.3s;
-        
+
+    .cta {
+      margin-top: 0.5rem;
+      padding: 0.8rem 2rem;
+      border: none;
+      background-color: #0d2843;
+      color: white;
+      text-transform: capitalize;
+      font-size: 1.2rem;
+      border-radius: 4rem;
+      transition: all 0.3s;
     }
-    .cta:hover{
-        scale: 1.1;
-        background-color: #47A7F4;
+    .cta:hover {
+      scale: 1.1;
+      background-color: #47a7f4;
     }
-   
   }
 }
