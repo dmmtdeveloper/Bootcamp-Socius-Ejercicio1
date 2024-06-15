@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    <title>Práctica-html-css-js Socius academia</title>
+  </head>
+  <body>
+    <header class="header">
+      <section class="header__section">
+        <h1 class="header__title">Hola HTML</h1>
+        <p class="header__paragraph">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+          voluptatum itaque aperiam! Praesentium explicabo animi quaerat?
+          Aspernatur, aliquid expedita atque laboriosam aperiam, quasi explicabo
+          ex ipsum doloremque ipsa quod consequuntur.
+        </p>
+        <a class="header__link" href="http://youtube.com" target="_blank" rel="noopener noreferrer">YOUTUBE.COM</a>
+      </section>
+
+      <article class="article">
+        <figure class="article__figure">
+          <img
+            class="article__img"
+            src="/Practica html-css-js/assets/Socius_IMG_05.png"
+            alt=""
+          />
+        </figure>
+        <figure class="article__figure article__figure--start">
+          <img
+            class="article__img"
+            src="/Practica html-css-js/assets/Socius_IMG_05.png"
+            alt=""
+          />
+        </figure>
+        <figure class="article__figure">
+          <img
+            class="article__img"
+            src="/Practica html-css-js/assets/Socius_IMG_05.png"
+            alt=""
+          />
+        </figure>
+      </article>
+
+      <form class="form" action="#">
+        <p class="form__text">contanto</p>
+        <div class="form__container">
+          <label class="form__label" for="name">nombre</label>
+          <input class="form__input" type="text" name="name" id="name" />
+        </div>
+
+        <div class="form__container">
+          <label class="form__label form__label--textarea" for="text">texto</label>
+          <textarea class="form__input form__input--textarea" name="text" id="text"></textarea>
+        </div>
+
+        <button id="cta" class="cta">enviar</button>
+      </form>
+    </header>
+  </body>
+</html>
